@@ -1,0 +1,110 @@
+model_name: "shivacon-v1"
+version: "1.0.0"
+
+text:
+  vocab_size: 1000
+  max_seq_len: 128
+  d_model: 128
+  num_heads: 4
+  num_layers: 2
+  dim_feedforward: 512
+  dropout: 0.1
+
+image:
+  image_size: 64
+  patch_size: 8
+  in_channels: 3
+  d_model: 128
+  num_heads: 4
+  num_layers: 2
+  dim_feedforward: 256
+  dropout: 0.1
+
+audio:
+  sample_rate: 16000
+  n_fft: 400
+  hop_length: 160
+  n_mels: 80
+  max_frames: 64
+  d_model: 128
+  num_heads: 4
+  num_layers: 2
+  dim_feedforward: 256
+  dropout: 0.1
+
+video:
+  num_frames: 4
+  image_size: 64
+  patch_size: 8
+  in_channels: 3
+  d_model: 128
+  num_heads: 4
+  spatial_layers: 1
+  temporal_layers: 1
+  dim_feedforward: 256
+  dropout: 0.1
+
+music:
+  vocab_size: 512
+  max_seq_len: 128
+  d_model: 128
+  num_heads: 4
+  num_layers: 2
+  dim_feedforward: 256
+  dropout: 0.1
+
+fusion:
+  latent_dim: 128
+  num_cross_attn_layers: 1
+  num_heads: 4
+  dim_feedforward: 256
+  dropout: 0.1
+  active_modalities:
+    - text
+    - image
+    - audio
+    - video
+    - music
+
+data:
+  data_root: "data"
+  cache_dir: ".cache"
+  num_workers: 0
+  pin_memory: false
+  train_batch_size: 4
+  eval_batch_size: 8
+  max_text_length: 64
+  max_audio_frames: 64
+  max_video_frames: 4
+  max_music_tokens: 64
+
+training:
+  num_epochs: 5
+  learning_rate: 0.001
+  weight_decay: 0.01
+  warmup_steps: 50
+  max_grad_norm: 1.0
+  batch_size: 4
+  gradient_accumulation_steps: 2
+  mixed_precision: false
+  precision: "fp32"
+  log_every_n_steps: 20
+  eval_every_n_epochs: 1
+  save_every_n_epochs: 1
+  keep_last_n_checkpoints: 3
+  seed: 42
+  use_tensorboard: false
+  use_wandb: false
+  loss_weights:
+    contrastive: 1.0
+    reconstruction: 0.5
+    alignment: 0.3
+
+checkpoint:
+  checkpoint_dir: "checkpoints"
+  log_dir: "logs"
+  keep_last_n: 3
+
+inference:
+  device: "auto"
+  batch_size: 1

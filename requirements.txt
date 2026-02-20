@@ -1,0 +1,26 @@
+# Core dependencies
+torch>=2.1.0
+numpy>=1.24.0
+
+# Data processing
+Pillow>=10.0.0
+torchaudio>=2.1.0
+torchvision>=0.16.0
+
+# Video processing (optional)
+opencv-python>=4.8.0
+decord>=0.6.0
+
+# API server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Observability
+tensorboard>=2.14.0
+tqdm>=4.66.0
+
+# Utilities
+PyYAML>=6.0
+regex>=2023.0.0

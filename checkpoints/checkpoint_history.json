@@ -1,0 +1,122 @@
+[
+  {
+    "epoch": 0,
+    "global_step": 22,
+    "metrics": {
+      "val/loss": 0.0
+    },
+    "timestamp": "2026-02-20T18:28:32.409997",
+    "is_best": true,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 0,
+    "global_step": 22,
+    "metrics": {
+      "train/loss": 0.0
+    },
+    "timestamp": "2026-02-20T18:28:32.500541",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 1,
+    "global_step": 44,
+    "metrics": {
+      "train/loss": 0.0
+    },
+    "timestamp": "2026-02-20T18:28:34.985135",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 2,
+    "global_step": 66,
+    "metrics": {
+      "train/loss": 0.0
+    },
+    "timestamp": "2026-02-20T18:28:36.855420",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 0,
+    "global_step": 239,
+    "metrics": {
+      "val/loss": 1.2020503172168024
+    },
+    "timestamp": "2026-02-20T19:22:34.387195",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 0,
+    "global_step": 239,
+    "metrics": {
+      "train/loss": 0.6013751185877116
+    },
+    "timestamp": "2026-02-20T19:22:34.537125",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 1,
+    "global_step": 478,
+    "metrics": {
+      "val/loss": 0.9974677077046147
+    },
+    "timestamp": "2026-02-20T19:24:59.059271",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 1,
+    "global_step": 478,
+    "metrics": {
+      "train/loss": 0.2512865945790353
+    },
+    "timestamp": "2026-02-20T19:24:59.173783",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 0,
+    "global_step": 23,
+    "metrics": {
+      "val/loss": 1.3744159828532825
+    },
+    "timestamp": "2026-02-20T20:25:29.398706",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 0,
+    "global_step": 23,
+    "metrics": {
+      "train/loss": 2.815133627424849
+    },
+    "timestamp": "2026-02-20T20:25:29.560806",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 1,
+    "global_step": 46,
+    "metrics": {
+      "val/loss": 0.30022326789119025
+    },
+    "timestamp": "2026-02-20T20:27:14.173430",
+    "is_best": false,
+    "best_metric": 0.0
+  },
+  {
+    "epoch": 1,
+    "global_step": 46,
+    "metrics": {
+      "train/loss": 1.2675468769479306
+    },
+    "timestamp": "2026-02-20T20:27:14.377831",
+    "is_best": false,
+    "best_metric": 0.0
+  }
+]

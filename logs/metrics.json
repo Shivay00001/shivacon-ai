@@ -1,0 +1,154 @@
+{
+  "train/step_loss": [
+    {
+      "step": 0,
+      "value": 3.070195436477661,
+      "timestamp": 1771619045.9909909,
+      "epoch": 0
+    },
+    {
+      "step": 20,
+      "value": 2.5820510387420654,
+      "timestamp": 1771619115.58917,
+      "epoch": 0
+    },
+    {
+      "step": 20,
+      "value": 2.5445327758789062,
+      "timestamp": 1771619117.1034591,
+      "epoch": 0
+    },
+    {
+      "step": 40,
+      "value": 0.9074981808662415,
+      "timestamp": 1771619206.8041778,
+      "epoch": 1
+    },
+    {
+      "step": 40,
+      "value": 0.6754655241966248,
+      "timestamp": 1771619209.059033,
+      "epoch": 1
+    }
+  ],
+  "train/lr": [
+    {
+      "step": 0,
+      "value": 0.0,
+      "timestamp": 1771619045.9909909,
+      "epoch": 0
+    },
+    {
+      "step": 20,
+      "value": 0.0004,
+      "timestamp": 1771619115.58917,
+      "epoch": 0
+    },
+    {
+      "step": 20,
+      "value": 0.0004,
+      "timestamp": 1771619117.1034591,
+      "epoch": 0
+    },
+    {
+      "step": 40,
+      "value": 0.0008,
+      "timestamp": 1771619206.8041778,
+      "epoch": 1
+    },
+    {
+      "step": 40,
+      "value": 0.0008,
+      "timestamp": 1771619209.059033,
+      "epoch": 1
+    }
+  ],
+  "train/step_time": [
+    {
+      "step": 0,
+      "value": 1.6062268000005133,
+      "timestamp": 1771619045.9909909,
+      "epoch": 0
+    },
+    {
+      "step": 20,
+      "value": 1.2716770000006363,
+      "timestamp": 1771619115.58917,
+      "epoch": 0
+    },
+    {
+      "step": 20,
+      "value": 1.4552418000002945,
+      "timestamp": 1771619117.1034591,
+      "epoch": 0
+    },
+    {
+      "step": 40,
+      "value": 1.8329610000000685,
+      "timestamp": 1771619206.8041778,
+      "epoch": 1
+    },
+    {
+      "step": 40,
+      "value": 2.1958217000010336,
+      "timestamp": 1771619209.059033,
+      "epoch": 1
+    }
+  ],
+  "train/loss": [
+    {
+      "step": 23,
+      "value": 2.815133627424849,
+      "timestamp": 1771619126.8390257,
+      "epoch": 0
+    },
+    {
+      "step": 46,
+      "value": 1.2675468769479306,
+      "timestamp": 1771619231.0172303,
+      "epoch": 1
+    }
+  ],
+  "train/epoch": [
+    {
+      "step": 23,
+      "value": 0.0,
+      "timestamp": 1771619126.8390257,
+      "epoch": 0
+    },
+    {
+      "step": 46,
+      "value": 1.0,
+      "timestamp": 1771619231.0172303,
+      "epoch": 1
+    }
+  ],
+  "val/loss": [
+    {
+      "step": 23,
+      "value": 1.3744159828532825,
+      "timestamp": 1771619128.5792892,
+      "epoch": 0
+    },
+    {
+      "step": 46,
+      "value": 0.30022326789119025,
+      "timestamp": 1771619233.8715038,
+      "epoch": 1
+    }
+  ],
+  "val/epoch": [
+    {
+      "step": 23,
+      "value": 0.0,
+      "timestamp": 1771619128.5792892,
+      "epoch": 0
+    },
+    {
+      "step": 46,
+      "value": 1.0,
+      "timestamp": 1771619233.8715038,
+      "epoch": 1
+    }
+  ]
+}

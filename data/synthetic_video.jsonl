@@ -1,0 +1,300 @@
+{"sample_id": "video_00000", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00001", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00002", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00003", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00004", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00005", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00006", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00007", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00008", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00009", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00010", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00011", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00012", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00013", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00014", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00015", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00016", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00017", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00018", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00019", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00020", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00021", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00022", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00023", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00024", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00025", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00026", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00027", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00028", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00029", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00030", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00031", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00032", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00033", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00034", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00035", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00036", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00037", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00038", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00039", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00040", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00041", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00042", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00043", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00044", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00045", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00046", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00047", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00048", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00049", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00050", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00051", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00052", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00053", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00054", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00055", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00056", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00057", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00058", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00059", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00060", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00061", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00062", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00063", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00064", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00065", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00066", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00067", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00068", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00069", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00070", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00071", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00072", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00073", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00074", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00075", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00076", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00077", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00078", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00079", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00080", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00081", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00082", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00083", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00084", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00085", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00086", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00087", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00088", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00089", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00090", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00091", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00092", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00093", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00094", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00095", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00096", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00097", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00098", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00099", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00100", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00101", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00102", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00103", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00104", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00105", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00106", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00107", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00108", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00109", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00110", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00111", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00112", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00113", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00114", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00115", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00116", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00117", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00118", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00119", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00120", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00121", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00122", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00123", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00124", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00125", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00126", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00127", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00128", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00129", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00130", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00131", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00132", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00133", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00134", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00135", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00136", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00137", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00138", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00139", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00140", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00141", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00142", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00143", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00144", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00145", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00146", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00147", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00148", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00149", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00150", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00151", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00152", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00153", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00154", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00155", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00156", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00157", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00158", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00159", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00160", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00161", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00162", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00163", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00164", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00165", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00166", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00167", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00168", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00169", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00170", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00171", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00172", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00173", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00174", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00175", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00176", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00177", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00178", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00179", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00180", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00181", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00182", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00183", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00184", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00185", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00186", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00187", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00188", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00189", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00190", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00191", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00192", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00193", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00194", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00195", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00196", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00197", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00198", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00199", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00200", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00201", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00202", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00203", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00204", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00205", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00206", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00207", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00208", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00209", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00210", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00211", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00212", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00213", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00214", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00215", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00216", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00217", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00218", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00219", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00220", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00221", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00222", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00223", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00224", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00225", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00226", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00227", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00228", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00229", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00230", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00231", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00232", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00233", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00234", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00235", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00236", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00237", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00238", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00239", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00240", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00241", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00242", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00243", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00244", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00245", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00246", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00247", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00248", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00249", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00250", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00251", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00252", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00253", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00254", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00255", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00256", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00257", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00258", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00259", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00260", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00261", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00262", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00263", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00264", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00265", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00266", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00267", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00268", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00269", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00270", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00271", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00272", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00273", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Rain falling on a window", "modality": "video_text"}
+{"sample_id": "video_00274", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00275", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00276", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00277", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00278", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00279", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00280", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00281", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00282", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00283", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00284", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00285", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Children playing in a playground", "modality": "video_text"}
+{"sample_id": "video_00286", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00287", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00288", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Birds flying in the sky", "modality": "video_text"}
+{"sample_id": "video_00289", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00290", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00291", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00292", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Cars driving on a highway", "modality": "video_text"}
+{"sample_id": "video_00293", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
+{"sample_id": "video_00294", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "City traffic at night", "modality": "video_text"}
+{"sample_id": "video_00295", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Waves crashing on the beach", "modality": "video_text"}
+{"sample_id": "video_00296", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A cat sleeping on a couch", "modality": "video_text"}
+{"sample_id": "video_00297", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Dogs running in a field", "modality": "video_text"}
+{"sample_id": "video_00298", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "A person walking in the park", "modality": "video_text"}
+{"sample_id": "video_00299", "video_type": "synthetic", "num_frames": 16, "height": 224, "width": 224, "channels": 3, "text": "Sunset over mountains", "modality": "video_text"}
