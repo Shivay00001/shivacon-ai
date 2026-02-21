@@ -30,11 +30,14 @@ This repository holds the fully modernized, vulnerability-free production codeba
 
 ## 🧠 Deep-Dive: Neural Network Architecture (OmniCore)
 
+![OmniCore Architecture Infographic](assets/architecture_infographic.png)
+
 Shivacon AI follows a **Multi-Modal Early-Fusion Transformer** architecture. Unlike standard LLMs that only process text, OmniCore is built to ingest and understand high-dimensional data across four primary senses natively.
 
 ### 1. Modality Encoders (The Senses)
 
 Each modality uses a specialized neural frontier to translate raw data into mathematical vectors:
+
 - **Vision Transformer (ViT)**: Uses patch-based self-attention. Images are divided into 14x14 patches and encoded via a `TransformerEncoderLayer`.
 - **Audio CNN-Transformer**: Processes Mel-Spectrograms through convolutional layers before projecting into the temporal transformer space.
 - **Text Encoder**: A deep transformer stack utilizing learned positional embeddings and multi-head self-attention.
@@ -47,12 +50,14 @@ To enable cross-modal reasoning, every encoder's output is passed through a **Mo
 ### 3. Cross-Modal Fusion Core (The Brain)
 
 The heart of OmniCore is the **Cross-Modal Fusion** engine:
+
 - **Gated Residual Networks (GRN)**: Implemented to prevent "Modality Dominance." It uses a **Sigmoid-gated bottleneck** to ensure the model balances textual instructions with visual evidence correctly.
 - **Cross-Attention Stacks**: Allows one modality (Query) to selectively attend to features in another (Context).
 
 ### 4. Neural Safety & Training Dynamics
 
-* **Entropy-Maximized Contrastive Loss**: We use a custom loss function that enforces uniform embedding distribution, preventing the neural network from "collapsing" into a single state (Mode Collapse).
+- **Entropy-Maximized Contrastive Loss**: We use a custom loss function that enforces uniform embedding distribution, preventing the neural network from "collapsing" into a single state (Mode Collapse).
+
 - **ReAct Agentic Loop**: Instead of a simple forward-pass, the model executes an iterative **Thought -> Action -> Observation** cycle, allowing it to "reflect" on its own neural outputs.
 
 ---
