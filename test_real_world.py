@@ -286,6 +286,11 @@ def test_cross_modal_similarity():
     ]
     
     print("[+] Text-Text Similarity:")
+    
+    if tokenizer is None:
+        print("[SKIP] No tokenizer found")
+        return False
+    
     for text1, text2 in test_pairs:
         tokens1 = tokenizer.encode(text1, add_bos=True, add_eos=True)
         tokens2 = tokenizer.encode(text2, add_bos=True, add_eos=True)
@@ -464,7 +469,7 @@ def test_batch_inference():
     batch_inputs = []
     for i in range(5):
         batch_inputs.append({
-            "text": {"x": torch.randint(0, 500, (16,))}
+            "text": {"x": torch.randint(0, 500, (1, 16))}  # (B, T) shape
         })
     
     print(f"[+] Processing batch of {len(batch_inputs)} samples...")

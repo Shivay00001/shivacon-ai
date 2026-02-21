@@ -811,7 +811,7 @@ class OmniCoreAgent:
             {"role": "user", "content": task}
         ]
         
-        available_tools = ", ".join(self.tools.keys())
+        available_tools = ", ".join(self.tools.tools.keys())
         trace.add_step({"type": "info", "content": f"Available tools: {available_tools}"})
         
         while current_iteration < max_iterations:
