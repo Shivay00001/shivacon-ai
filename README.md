@@ -114,4 +114,4 @@ tuner.train(massive_dataloaders)
    python data/generate_pretraining_data.py
    ```
 
-*(Built by Shivay00001)*
+*(Built by Shivay00001 & @visionquantech)*
