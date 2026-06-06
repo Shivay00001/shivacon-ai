@@ -195,51 +195,139 @@ class ReasoningEngine:
         context: str,
         available_tools: List[Dict],
     ) -> List[Dict]:
-        """Create execution plan for task."""
-        
+        """Create an execution plan for an arbitrary task.
+
+        1. If the model exposes a text-generation method (``generate_text``/
+           ``chat``) whose output parses into a valid JSON plan, use it.
+        2. Otherwise fall back to a deterministic intent router that inspects
+           the task with the tools actually registered and extracts params
+           from natural language. Works on any phrasing, not fixed demos.
+        """
+        tool_names = {t["name"] for t in available_tools}
+
         prompt = f"""Task: {task}
 Context: {context}
 Available Tools: {json.dumps(available_tools, indent=2)}
 
-Create a step-by-step plan to complete this task. Output as a strict JSON array of steps:
-[{{"step": 1, "action": "tool_name", "reason": "why this step", "params": {{}}}}]"""
-
+Create a step-by-step plan. Output a strict JSON array of steps:
+[{{"step": 1, "action": "tool_name", "reason": "why", "params": {{}}}}]"""
         logger.info(f"Planning: {task[:50]}...")
-        
-        # IN PRODUCTION: llm_response = self.model.generate(prompt)
-        # Replacing mocked if-string logic with simulated LLM backend parsing.
-        llm_response = self._mock_llm_json_planner(task)
-        
+
+        plan = self._model_plan(prompt, tool_names)
+        if plan is not None:
+            return plan
+        return self._route_plan(task, tool_names)
+
+    def _model_plan(self, prompt: str, tool_names: set) -> Optional[List[Dict]]:
+        """Use the model's text generation when available; else None."""
+        gen = getattr(self.model, "generate_text", None) or getattr(self.model, "chat", None)
+        if not callable(gen):
+            return None
         try:
-            plan = json.loads(llm_response)
-            if not isinstance(plan, list):
-                plan = [{"step": 1, "action": "respond", "reason": "Parsing failed", "params": {}}]
-        except json.JSONDecodeError:
-            plan = [{"step": 1, "action": "respond", "reason": "LLM failed JSON", "params": {}}]
-            
-        return plan
-        
-    def _mock_llm_json_planner(self, task: str) -> str:
-        """Simulate LLM structured JSON array output."""
-        task_lower = task.lower()
-        if "compare" in task_lower or "similar" in task_lower:
-            return '[{"step": 1, "action": "compare_similarity", "reason": "Compare semantic embeddings.", "params": {"input_a": "A dog running in the park", "input_b": "A puppy playing outside"}}]'
-            
-        if "calculate" in task_lower or "square root" in task_lower:
-            return '[{"step": 1, "action": "calculator", "reason": "Compute the math requirement.", "params": {"expression": "(144**0.5) + 15"}}]'
-            
-        if "write a python" in task_lower or "hello.txt" in task_lower:
-            return '[{"step": 1, "action": "code_interpreter", "reason": "Write and execute python file io.", "params": {"code": "with open(\'hello.txt\', \'w\') as f: f.write(\'Hello World\')\\nwith open(\'hello.txt\', \'r\') as f: print(len(f.read()))"}}]'
-            
-        if "remember" in task_lower or "secret" in task_lower:
-            if "recall" in task_lower:
-                return '[{"step": 1, "action": "recall", "reason": "Fetch stored secret from knowledge graph.", "params": {"query": "secret"}}]'
-            else:
-                return '[{"step": 1, "action": "remember", "reason": "Persist secret to vector DB.", "params": {"key": "secret", "value": "Alpha99"}}]'
-                
-        return '[{"step": 1, "action": "respond", "reason": "Direct general response.", "params": {}}]'
-    
-    
+            raw = gen(prompt)
+            if not isinstance(raw, str):
+                return None
+            m = re.search(r"\[.*\]", raw, re.DOTALL)
+            plan = json.loads(m.group(0) if m else raw)
+            if isinstance(plan, list) and plan and all(
+                isinstance(p, dict) and (p.get("action") in tool_names or p.get("action") == "respond")
+                for p in plan
+            ):
+                return plan
+        except Exception as e:
+            logger.warning(f"Model planning failed, falling back to router: {e}")
+        return None
+
+    def _route_plan(self, task: str, tool_names: set) -> List[Dict]:
+        """Deterministic intent router over the registered tools."""
+        t = task.lower().strip()
+
+        def step(action, reason, params):
+            return [{"step": 1, "action": action, "reason": reason, "params": params}]
+
+        is_recall = bool(re.search(r"\b(recall|retrieve|fetch|what(?:'s| is| was| are| did)|do you remember)\b", t))
+
+        if ("remember" in tool_names and not is_recall
+                and re.search(r"\b(remember|memorize|store|save|note)\b", t)):
+            key, value = self._extract_kv(task)
+            if value:
+                return step("remember", "Persist information to long-term memory.",
+                            {"key": key, "value": value})
+
+        if "calculator" in tool_names and (
+                re.search(r"\b(calculate|compute|evaluate|how much|sum of|square root|sqrt)\b", t)
+                or re.search(r"\d\s*[\+\-\*/]\s*\d", task)
+                or ("what is" in t and re.search(r"\d", t))):
+            expr = self._extract_expression(task)
+            if expr:
+                return step("calculator", "Compute the mathematical expression.", {"expression": expr})
+
+        if "recall" in tool_names and (
+                re.search(r"\b(recall|retrieve|fetch|stored|do you remember|remember)\b", t)
+                or re.search(r"what(?:'s| is| was| are)?\s+(?:my|our)\b", t)):
+            return step("recall", "Search long-term memory.", {"query": self._extract_query(task)})
+
+        if "compare_similarity" in tool_names and re.search(r"\b(compare|similar|similarity|how alike|difference between)\b", t):
+            a, b = self._extract_pair(task)
+            if a and b:
+                return step("compare_similarity", "Compare semantic embeddings of two inputs.",
+                            {"input_a": a, "input_b": b})
+
+        if "get_time" in tool_names and re.search(r"\b(time|date|what day|today|right now)\b", t):
+            return step("get_time", "Return the current date and time.", {})
+
+        if "generate_music" in tool_names and re.search(r"\b(music|melody|song|compose|tune)\b", t):
+            return step("generate_music", "Generate music from the prompt.", {"prompt": task})
+
+        if "web_search" in tool_names and re.search(r"\b(search|look up|find|google|latest|news about)\b", t):
+            return step("web_search", "Search the web for information.", {"query": self._extract_query(task)})
+
+        if "encode_text" in tool_names and re.search(r"\b(encode|embed|embedding|vectorize)\b", t):
+            payload = re.sub(r"(?i)\b(encode|embed|embedding of|vectorize)\b", "", task).strip(" :\"'")
+            return step("encode_text", "Encode text into embeddings.", {"text": payload or task})
+
+        return step("respond", "No tool required; respond directly.", {})
+
+    # ---- generic parameter extractors (operate on arbitrary input) ----
+    def _extract_kv(self, task: str):
+        m = re.search(r"(?:remember|memorize|store|save|note)(?:\s+that)?\s+(?:my\s+)?(.+?)\s+(?:is|are|=|equals|:)\s+(.+)",
+                      task, re.IGNORECASE)
+        if m:
+            return m.group(1).strip(" .\"'"), m.group(2).strip(" .\"'")
+        rest = re.sub(r"(?i)^\s*(remember|memorize|store|save|note)(\s+that)?\s*", "", task).strip(" .\"'")
+        return ("note", rest) if rest else ("note", "")
+
+    def _extract_query(self, task: str):
+        m = re.search(r"what(?:'s| is| was| are)?\s+(?:my\s+)?(.+)", task, re.IGNORECASE)
+        if m:
+            return m.group(1).strip(" ?.\"'")
+        cleaned = re.sub(r"(?i)\b(recall|retrieve|fetch|do you remember|search|look up|find|google|about)\b", "", task).strip(" ?.\"'")
+        return cleaned or task
+
+    def _extract_expression(self, task: str):
+        s = task.lower()
+        s = re.sub(r"(?:the\s+)?square root of\s*([\d.]+)", r"(\1)**0.5", s)
+        s = re.sub(r"sqrt\s*\(?\s*([\d.]+)\s*\)?", r"(\1)**0.5", s)
+        for k, v in ((" plus ", "+"), (" minus ", "-"), (" times ", "*"),
+                     (" multiplied by ", "*"), (" divided by ", "/"), (" over ", "/")):
+            s = s.replace(k, v)
+        s = re.sub(r"[^0-9+\-*/.() ]", " ", s)
+        m = re.search(r"[\d.()]+(?:\s*(?:\*\*|[-+*/])\s*[\d.()]+)+", s)
+        if m:
+            return re.sub(r"\s+", "", m.group(0))
+        m = re.search(r"\d+\.?\d*", s)
+        return m.group(0) if m else ""
+
+    def _extract_pair(self, task: str):
+        q = re.findall(r'"([^"]+)"', task)
+        if len(q) >= 2:
+            return q[0], q[1]
+        m = re.search(r"(?:compare|between|similarity of|alike[:,]?)\s+(.+?)\s+(?:and|with|to|vs\.?)\s+(.+)",
+                      task, re.IGNORECASE)
+        if m:
+            return m.group(1).strip(" .\"'"), m.group(2).strip(" .\"'")
+        return None, None
+
     def reflect(
         self,
         action_result: Any,
